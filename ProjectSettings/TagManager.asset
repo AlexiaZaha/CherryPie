@@ -13,11 +13,11 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Wall
+  - Collectables
+  - Background
   - 
   - 
   - 
@@ -45,14 +45,23 @@ TagManager:
   - name: Background
     uniqueID: 2391581999
     locked: 0
+  - name: Barriers
+    uniqueID: 2981866803
+    locked: 0
   - name: Foreground
     uniqueID: 1230176777
+    locked: 0
+  - name: Collectables
+    uniqueID: 2553284131
+    locked: 0
+  - name: Ground
+    uniqueID: 3599182231
     locked: 0
   - name: Player
     uniqueID: 2737798233
     locked: 0
-  - name: Ground
-    uniqueID: 3599182231
+  - name: ForthWall
+    uniqueID: 3309797291
     locked: 0
   m_RenderingLayers:
   - Default
